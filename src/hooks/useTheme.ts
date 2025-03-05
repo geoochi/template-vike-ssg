@@ -7,13 +7,8 @@ function useTheme() {
 
   useEffect(() => {
     // 在客户端初始化主题
-    const savedTheme = localStorage.getItem('theme') as Theme
-    if (savedTheme) {
-      setTheme(savedTheme)
-    } else {
-      const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-      setTheme(isDark ? 'dark' : 'light')
-    }
+    const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    setTheme(isDark ? 'dark' : 'light')
 
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
 
