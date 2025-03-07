@@ -1,4 +1,4 @@
-import useTheme from '@/hooks/useTheme'
+import useTheme from '@/hooks/use-theme'
 import './global.css'
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
