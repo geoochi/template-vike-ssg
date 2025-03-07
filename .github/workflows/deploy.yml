@@ -45,12 +45,12 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm vite build
+        run: pnpm b
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: dist/client
 
   deploy:
     environment:

@@ -1,9 +1,8 @@
-import { Link } from 'react-router-dom'
 import { MoonIcon, SunIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import useTheme from '@/hooks/useTheme'
 
-export default function Home() {
+const Page: React.FC = () => {
   const { theme, setTheme } = useTheme()
 
   return (
@@ -13,8 +12,10 @@ export default function Home() {
         <Button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')} variant='ghost' size='icon'>
           {theme === 'light' ? <SunIcon /> : <MoonIcon />}
         </Button>
-        <Link to={'/about'}>→ About Page</Link>
+        <a href='/about'>→ About Page</a>
       </div>
     </div>
   )
 }
+
+export default Page
