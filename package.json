@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "d": "vike dev",
+    "b": "vike build",
+    "p": "pnpx http-server dist/client -a 127.0.0.1 -p 3000"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.479.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vike": "^0.4.224",
+    "vike-react": "^0.5.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.12",
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "tailwindcss": "^4.0.12",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1"
+  },
+  "type": "module"
+}
