@@ -6,7 +6,7 @@ import type { Config } from 'vike/types'
 
 export default {
   // https://vike.dev/head-tags
-  title: 'template-vite-ssgr',
+  title: 'template-vite-ssg',
   prerender: true,
   extends: vikeReact,
 } satisfies Config
