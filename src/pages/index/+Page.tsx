@@ -27,7 +27,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <p className='text-3xl'>template - vike@0.4.224 - react@19 - shadcn@canary - tailwindcss@4 - SSG</p>
+      <p className='text-3xl'>template - vike@0.4 - react@19 - shadcn@canary - tailwindcss@4 - SSG</p>
       <Button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')} variant='ghost' size='icon'>
         {theme === 'light' ? <SunIcon /> : <MoonIcon />}
       </Button>
