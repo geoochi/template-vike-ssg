@@ -14,7 +14,7 @@
     "lucide-react": "^0.479.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwind-merge": "^3.1.0",
+    "tailwind-merge": "^3.2.0",
     "tailwindcss-animate": "^1.0.7",
     "vike": "^0.4.228",
     "vike-react": "^0.6.1"
